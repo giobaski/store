@@ -1,5 +1,5 @@
 # store
-java solution for a store 2021
+java solution for a store 3333
 
 The solution needs to have at least following features:
 ◦ Item: Name, ID (incremental ID by 1 for each product), Price.
