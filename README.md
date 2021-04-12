@@ -1,8 +1,5 @@
 # store
- java solution for a store. 
-
-
-Object-oriented programming
+java solution for a store. 
 
 The solution needs to have at least following features:
 ◦ Item: Name, ID (incremental ID by 1 for each product), Price.
