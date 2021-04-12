@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="88.390625" y="762.0">com.company.Menu</node>
+    <node x="0.0" y="120.0">com.company.interfaces.Payable</node>
+    <node x="1015.0" y="864.0">com.company.items.ItemTakeItAll</node>
+    <node x="807.390625" y="407.0">com.company.items.ItemWithDiscount</node>
+    <node x="459.0" y="0.0">com.company.items.Item</node>
+    <node x="0.0" y="1097.0">com.company.items.MethodsForItem</node>
+    <node x="585.0" y="798.0">com.company.items.DiscountIndependence</node>
+    <node x="96.390625" y="386.0">com.company.baskets.Basket</node>
+    <node x="428.390625" y="422.0">com.company.items.BuyMorePayLess</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.items.ItemTakeItAll" target="com.company.items.ItemWithDiscount">
+      <point x="81.5" y="-43.0" />
+      <point x="1259.5" y="737.0" />
+      <point x="1127.640625" y="737.0" />
+      <point x="137.25" y="142.0" />
+    </edge>
+    <edge source="com.company.baskets.Basket" target="com.company.items.Item">
+      <point x="0.0" y="-163.0" />
+      <point x="252.390625" y="346.0" />
+      <point x="484.5" y="346.0" />
+      <point x="-127.5" y="163.0" />
+    </edge>
+    <edge source="com.company.items.DiscountIndependence" target="com.company.items.ItemWithDiscount">
+      <point x="-102.5" y="-109.0" />
+      <point x="687.5" y="737.0" />
+      <point x="853.140625" y="737.0" />
+      <point x="-137.25" y="142.0" />
+    </edge>
+    <edge source="com.company.baskets.Basket" target="com.company.interfaces.Payable">
+      <point x="-104.0" y="-163.0" />
+      <point x="148.390625" y="366.0" />
+      <point x="152.5" y="366.0" />
+      <point x="0.0" y="43.0" />
+    </edge>
+    <edge source="com.company.items.ItemWithDiscount" target="com.company.items.Item">
+      <point x="-91.5" y="-142.0" />
+      <point x="898.890625" y="356.0" />
+      <point x="688.5" y="356.0" />
+      <point x="76.5" y="163.0" />
+    </edge>
+    <edge source="com.company.Menu" target="com.company.baskets.Basket">
+      <point x="0.0" y="-145.0" />
+      <point x="0.0" y="163.0" />
+    </edge>
+    <edge source="com.company.items.BuyMorePayLess" target="com.company.items.Item">
+      <point x="89.75" y="-127.0" />
+      <point x="697.640625" y="366.0" />
+      <point x="637.5" y="366.0" />
+      <point x="25.5" y="163.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8785398435463385" x="532.4700612186645" y="946.9273848852647" />
+  <SelectedNodes>
+    <node>com.company.baskets.Basket</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
