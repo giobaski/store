@@ -1,6 +1,6 @@
 # store
 java solution for a store 3333
-tsipuria
+gio
 The solution needs to have at least following features:
 ◦ Item: Name, ID (incremental ID by 1 for each product), Price.
 ◦ Store Basket: ID (incremental ID by 1 for each basket), Net Amount, Total Amount, VAT, List
