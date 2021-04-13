@@ -8,8 +8,9 @@ of items, Date and Time of purchase, Address of the store, name of cashier.
 ◦ Cashier: Name, Surname, Username and Password (insert from code five fixed cashiers).
 ◦ Manager: Name, Surname, Username and Password (insert from code one fixed manager).
 The program must:
-• Present a Menu for the cashier after he has Flogged in with username and password.
+• Present a Menu for the cashier after he has logged in with username and password.
 • Menu should be available in 2 languages.
+
 Menu:
 ◦ New Basket
 ◦ Insert item in basket
