@@ -29,13 +29,11 @@ public class Store {
                 new Cashier("Cashier02", "username2", "password2","address1",
                         "+3722222", "0002")
                 ));
-
         //Set language for application
         Scanner input = new Scanner(System.in);
         System.out.println("Please choose your language: 1 - English, 2 - German");
         int languageCode = input.nextInt();
         this.bundle = setLanguageAndGetBundle(languageCode);
-
     }
 
     //internationalization i18n

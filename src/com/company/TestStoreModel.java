@@ -1,17 +1,14 @@
 package com.company;
 
 import com.company.baskets.Basket;
-import com.company.items.BuyMorePayLess;
-import com.company.items.DiscountIndependence;
-import com.company.items.Item;
-import com.company.items.ItemWithDiscount;
+import com.company.items.*;
 import com.company.users.Cashier;
 import com.company.users.LoyalCustomer;
 import com.company.users.User;
 
 import java.util.*;
 
-public class Main {
+public class TestStoreModel {
 
     public static void main(String[] args) throws InterruptedException {
 
@@ -32,6 +29,14 @@ public class Main {
         BuyMorePayLess item06 = new BuyMorePayLess("Milk", 1);
         item04.setBuyPayOffer(3,2);
         item04.calculateDiscount();
+
+        //Check TakeItAll discount
+        ItemTakeItAll item07 = new ItemTakeItAll("Tuna",5.00);
+        ItemTakeItAll item08 = new ItemTakeItAll("Tuna",5.00);
+
+//        item07.setDiscount(10);
+        item07.setMinimumNumber(1);
+        System.out.println("##################" + item07.calculateDiscount());
 
         // USERS
         LoyalCustomer customer01 = new LoyalCustomer("Giorgi Tsipuria", "giobaski", "123",
